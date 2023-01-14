@@ -92,7 +92,35 @@ Now there are multiple commands and the ones I used while I was in lab are liste
 5. ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
 6. cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 7. cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+8. ls
+9. pwd
+10. mkdir
+11. cp
  
 So you might be wondering, what do I do. The answer is simple which is basically type out or just copy/paste the commands listed above and see what happens. 
  
  Now I will caution, there will be images below that I took when I was first trying out remote connecting and the results were defintely interesting. 
+ 
+ Now before I deep dive and explain everything, lets try out the commands first(each command will be accompanied by an image)
+
+1. cd ~
+ ![Image](vscode download.png)
+ 
+2. cd
+ ![Image](vscode download.png)
+ 
+3. ls -lat
+ ![Image](vscode download.png)
+ 
+4. ls -a
+ ![Image](vscode download.png)
+ 
+5. ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
+ ![Image](vscode download.png)
+ 
+6. cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+ ![Image](vscode download.png)
+ 
+7. cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+ 
+ ![Image](vscode download.png)
