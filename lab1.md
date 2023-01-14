@@ -5,7 +5,7 @@
 ## Lab Report 1
 ---
 Objective: write a tutorial for incoming 15L students (and your future self!) about how to log into a course-specific account on ieng6. 
-
+---
 **Step 1: Installing Visual Studio Code**
 
 Depending on the systems that you have access to, it is important to make sure that you are able to install VS Code for this tutorial. 
@@ -21,11 +21,11 @@ Now that VS Code is installed, it is important to also make sure that if you are
 
 More about this can be found here at this link: [Link](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
 
-
+---
 **Step 2: Install Git**
 
 Git is a free/open source distrubuted version control system. It is important to install this as well along side VS Code. Go to this [Link](https://git-scm.com/) and the instructions are quite simple as it is just installing based on the operating system chosen. 
-
+------
 **Step 3: Install Bash in VS Code**
 
 Within Visual Studio, it is important to open a terminal by 
@@ -34,7 +34,7 @@ Within Visual Studio, it is important to open a terminal by
 2. After that step, we can open the command pallete using Ctrl + Shift + P. 
 3. After that, go to "Select Default Profile" and then select "bash". 
 4. Originally it should be on powershell. 
-
+---
 **Step 4: Let's Begin Remote Connecting**
 
 So an important concept to keep in mind is SSH which stands for Secure Shell. So in our case, we must first open a terminal within VS Code. Since we are UCSD students, this will be oriented toward this audience. 
@@ -85,7 +85,7 @@ Here is a reference to my work when I was trying, I was also confused by the pas
 
  ![Image](https://github.com/invisiblecuteman/cse15l-lab-reports/blob/main/firstimage.png)
 
-
+---
 **Step 5: It is time to test out some commands while being in remote connecting**
 
 Now there are multiple commands and the ones I used while I was in lab are listed below
@@ -129,9 +129,9 @@ Now with this command, you should notice that whenever I try to access in this c
 
  
 Now in this image, I did try other things in the terminal and the best thing to do is to ignore them and focus at where I type the 6/7 command in the terminal. Nothing happens as I type each one and hit enter which means the commands did not run into any issues. This is good and eventually I get a message stating " Welcome to CSE 15L". 
- 
+ ---
  **End of Tutorial**
  
  I hope this was insightful and shows how to connect remottely and even play around in a safe manner of course. 
  Make sure to either run the command exit or Ctrl + D to exit the remote connecting session. 
- 
+ ---
