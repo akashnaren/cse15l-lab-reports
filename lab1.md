@@ -131,6 +131,7 @@ Now with this command, you should notice that whenever I try to access in this c
 Now in this image, I did try other things in the terminal and the best thing to do is to ignore them and focus at where I type the 6/7 command in the terminal. Nothing happens as I type each one and hit enter which means the commands did not run into any issues. This is good and eventually I get a message stating " Welcome to CSE 15L". 
  
  **End of Tutorial**
- I hope this was insightful and shows how to connect remottely and even play around in a safe manner of course. 
  
+ I hope this was insightful and shows how to connect remottely and even play around in a safe manner of course. 
+ Make sure to either run the command exit or Ctrl + D to exit the remote connecting session. 
  
