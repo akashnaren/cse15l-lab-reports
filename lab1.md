@@ -43,16 +43,27 @@ So an important concept to keep in mind is SSH which stands for Secure Shell. So
 
 1. Open terminal in VS Code
 2. Type 
+
+
 ```
 ssh cs15lwi23zz@ieng6.ucsd.edu
 
 ```
+
+
 3. Now, the "zz" within is for you to include a three digit letter code that will be found in your UCSD Account Password Reset we did above. In my case, it was ahg so my ssh would look like 
+
+
 ```
 ssh cs15lwi23ahg@ieng6.ucsd.edu
 
 ```
+
+
 4. If done correctly, this should show a message 
+
+
+
 
 ```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
@@ -61,11 +72,16 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ```
 
+
+
+
 5. Say Yes
 
 6. You will then need to type a password and beware that when passwords are typed in a terminal, it will feel like nothing is being typed but it is being typed
 
 7. If this is successful, another similar message of words should be on your screen 
+
+
 
 ```
 # Now on remote server
@@ -83,6 +99,9 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 ```
+
+
+
 Here is a reference to my work when I was trying, I was also confused by the password differences but here is a image of mine. 
 
  ![Image](firstimage.png)
