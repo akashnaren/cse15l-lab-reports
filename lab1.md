@@ -13,7 +13,7 @@ Depending on the systems that you have access to, it is important to make sure t
 As a result, the first step under this major step is 
 to go to this [Link](https://code.visualstudio.com/download) (vscode download)
 
-Once you have completed this step depending on the operating/computer system that you have, for the sake of the tutorial I will be explaining it in terms of a windows system and mac system when it differs or if necessary. 
+Once you have completed this step, for the sake of the tutorial I will be explaining it in terms of a windows system as done in my lab.
  
 *Once VS Code is up and running, it should appear like the image below:*
 ![Image](vscode.png)
