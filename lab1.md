@@ -54,12 +54,7 @@ So an important concept to keep in mind is SSH which stands for Secure Shell. So
 
 4. If done correctly, this should show a message 
 
-``` The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
-RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? 
-```
-
-
+``` The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. Are you sure you want to continue connecting (yes/no/[fingerprint])? ```
 
 
 5. Say Yes
@@ -69,9 +64,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 7. If this is successful, another similar message of words should be on your screen 
 
 
-
-```
-# Now on remote server
+```# Now on remote server
 Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
 quota: No filesystem specified.
 Hello cs15lwi23zz, you are currently logged into ieng6-203.ucsd.edu
