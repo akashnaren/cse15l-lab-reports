@@ -63,8 +63,8 @@ So an important concept to keep in mind is SSH which stands for Secure Shell. So
 
 7. If this is successful, another similar message of words should be on your screen 
 
-
-```# Now on remote server
+```
+# Now on remote server
 Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
 quota: No filesystem specified.
 Hello cs15lwi23zz, you are currently logged into ieng6-203.ucsd.edu
