@@ -4,18 +4,19 @@
 ---
 ## Lab Report 1
 ---
-Objective: write a tutorial for incoming 15L students (and your future self!) about how to log into a course-specific account on ieng6. 
+Objective: write a tutorial for incoming 15L students (and your future self!) about how to log into a course specific account on ieng6. 
 ---
 **Step 1: Installing Visual Studio Code**
 
 Depending on the systems that you have access to, it is important to make sure that you are able to install VS Code for this tutorial. 
 
-As a result, the first step under this major step is to go to this [Link]((https://code.visualstudio.com/download))
+As a result, the first step under this major step is 
+to go to this [Link]((https://code.visualstudio.com/download))
 
 Once you have completed this step depending on the operating/computer system that you have, for the sake of the tutorial I will be explaining it in terms of a windows system and mac system when it differs or if necessary. 
  
 *Once VS Code is up and running, it should appear like the image below:*
-![Image](https://github.com/invisiblecuteman/cse15l-lab-reports/blob/main/vscode%20download.png)
+![Image](vscode.png)
 
 Now that VS Code is installed, it is important to also make sure that if you are using a UCSD Desktop to have your password reset on this [Link](https://sdacs.ucsd.edu/~icc/index.php)
 
@@ -34,6 +35,7 @@ Within Visual Studio, it is important to open a terminal by
 2. After that step, we can open the command pallete using Ctrl + Shift + P. 
 3. After that, go to "Select Default Profile" and then select "bash". 
 4. Originally it should be on powershell. 
+
 ---
 **Step 4: Let's Begin Remote Connecting**
 
@@ -83,7 +85,7 @@ Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 ```
 Here is a reference to my work when I was trying, I was also confused by the password differences but here is a image of mine. 
 
- ![Image](https://github.com/invisiblecuteman/cse15l-lab-reports/blob/main/firstimage.png)
+ ![Image](firstimage.png)
 
 ---
 **Step 5: It is time to test out some commands while being in remote connecting**
@@ -112,7 +114,7 @@ So you might be wondering, what do I do. The answer is simple which is basically
 3. ls -lat
 4. ls -a
  
-![Image](https://github.com/invisiblecuteman/cse15l-lab-reports/blob/main/2nd%20image.png)
+![Image](image2.png)
  
  As you will notice, my image contains the use of all four of these commands. It clearly shows what happens. Now for this image, I request that you ignore everything after ls <directory> because I will explain that in the next steps. Just focus on how the terminal behaves when typing in cd ~, cd, ls -lat, ls -a. 
  
@@ -120,12 +122,12 @@ So you might be wondering, what do I do. The answer is simple which is basically
  
 Now with this command, you should notice that whenever I try to access in this case my partners computer using his three letters(ahs, agv), I get **Permission Denied**. But when I type mine, I end up getting perl15 which is ahg. Now I tried something interesting which was I removed the entire last portion of the command so it is just this ls /home/linux/ieng6/cs15lwi23/. It showed all the students or whoever was on the remote connecting at that time. I didn't go do anything beyond this but just wanted to show this. 
  
-![Image](https://github.com/invisiblecuteman/cse15l-lab-reports/blob/main/3rd%20image.png)
+![Image](image3.png)
  
 6. cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 7. cat /home/linux/ieng6/cs15lwi23/public/hello.txt
  
-![Image](https://github.com/invisiblecuteman/cse15l-lab-reports/blob/main/4th%20image.png)
+![Image](image4.png)
 
  
 Now in this image, I did try other things in the terminal and the best thing to do is to ignore them and focus at where I type the 6/7 command in the terminal. Nothing happens as I type each one and hit enter which means the commands did not run into any issues. This is good and eventually I get a message stating " Welcome to CSE 15L". 
