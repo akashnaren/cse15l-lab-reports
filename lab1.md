@@ -134,4 +134,4 @@ Now in this image, I did try other things in the terminal and the best thing to 
  
  I hope this was insightful and shows how to connect remottely and even play around in a safe manner of course. 
  Make sure to either run the command exit or Ctrl + D to exit the remote connecting session. 
- ---
+ 
