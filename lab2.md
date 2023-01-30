@@ -93,5 +93,58 @@ For the second screenshot: When `How are you` is passed to `handleRequest`*
 3. In this case, the values change because looking at the value, it takes a string parameter. The value of message is updated by concatenating the value of the parameter in the query string with a newline character. This new request is written beneath the previous one. 
 
 ---
+
 **Part 2**
+
+Here is part 2:
+---
+Provide:
+
+1.  A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+```
+@Test
+ public void ReverseTester() {
+   int[] input1 = { 0, 1, 2, 3, 4 };
+   assertArrayEquals(new int[] { 4, 3, 2, 1, 0 }, ArrayExamples.reversed(input1));
+
+```
+
+2. An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+
+
+3.  The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+
+
+4.  The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+Briefly describe why the fix addresses the issue.
+
+Before: 
+```
+@Test
+ public void ReverseTester() {
+   int[] input1 = { 0, 1, 2, 3, 4 };
+   assertArrayEquals(new int[] { 4, 3, 2, 1, 0 }, ArrayExamples.reversed(input1));
+
+```
+After:
+```
+static int[] reversed(int[] arr) {
+   int[] newArray = new int[arr.length];
+
+
+   for (int i = 0; i < arr.length; i += 1) {
+     newArray[i] = arr[arr.length - i - 1];
+   }
+   return newArray;
+ }
+#Wrong array was being returned originally
+
+```
+
+---
+**Part 3**
+
+
+
+
 
