@@ -14,7 +14,7 @@ So I want to say up front that there will be usage of files from the wavelet git
 Back to the assignment though, the main goal in Part 1 is to Write a web server called StringServer that supports the path and behavior as described in the lab write up. 
 
 ---
-In Step 1, I want to first show the code that I ended up making for my `StringServer`. I want to explain my code to make sure that as future readers, you will be able to understand the components that make up my code as you see my code. 
+In Part 1, I want to first show the code that I ended up making for my `StringServer`. I want to explain my code to make sure that as future readers, you will be able to understand the components that make up my code as you see my code. 
 
 Here is my code for the StringServer.java file:
 ```
