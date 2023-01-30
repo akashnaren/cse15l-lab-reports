@@ -67,8 +67,6 @@ Here is the first screenshot:
 
 ![Image](FirstHello.png)
 
-In this case, a URL that specifies an HTTP request to a server running on the local machine (localhost) at port 4040. The request is sent to the endpoint "/add-message" and contains a query string "s=Hello". When this request is received by the server, the "handleRequest" method in the "Handler" class will be called with the given URI. The method will parse the query string and add "Hello" to the "message" string. The updated "message" string will then be returned as the response to the HTTP request.
-
 Here is the second screenshot:
 
 ![Image](SecondPrompt.png)
