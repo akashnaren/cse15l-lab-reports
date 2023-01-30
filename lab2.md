@@ -8,7 +8,7 @@ Objective: Write code for a web server
 ---
 **Part 1**
 ---
-So I want to say up front that there will be usage of files from the wavelet github files before I get into the steps of the assignment. more specifically, the Server.java file. Using Java's built-in HttpServer, this file configures an HTTP server. The program creates a class called "Server" that launches an HTTP server on the designated port and has a single endpoint, "/," which is handled by a class called "ServerHttpHandler."
+So I want to say up front that there will be usage of files from the wavelet github files before I get into the steps of the assignment. More specifically, the Server.java file. Using Java's built-in HttpServer, this file configures an HTTP server. The program creates a class called "Server" that launches an HTTP server on the designated port and has a single endpoint, "/," which is handled by a class called "ServerHttpHandler."
 
 
 Back to the assignment though, the main goal in Part 1 is to Write a web server called StringServer that supports the path and behavior as described in the lab write up. 
