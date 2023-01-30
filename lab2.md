@@ -62,3 +62,36 @@ The "StringServer" class takes the first command line argument as the port numbe
 
 
 As stated in the next step of the lab, here are two screenshots of using `/add-message`, 
+
+Here is the first screenshot:
+
+![Image](FirstHello.png)
+
+In this case, a URL that specifies an HTTP request to a server running on the local machine (localhost) at port 4040. The request is sent to the endpoint "/add-message" and contains a query string "s=Hello". When this request is received by the server, the "handleRequest" method in the "Handler" class will be called with the given URI. The method will parse the query string and add "Hello" to the "message" string. The updated "message" string will then be returned as the response to the HTTP request.
+
+Here is the second screenshot:
+
+![Image](SecondPrompt.png)
+
+Now for Part 1, I have to answer these questions for each screenshot.
+
+1. Which methods in your code are called?
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+*For the first screenshot: When `Hello` is passed to `handleRequest'* 
+
+1. In the code block above, The `main` method and the `handleRequest` method are called.
+2. Since the parameter is a string, it can take any `int`, `String`, and `URI`. The main method is called with the first argument as the port number. The handleRequest method is called with a URI object that represents the URL of the request. The relevant fields of the class are the message field, which contains the concatenated string of the message received from each request.
+3. In this case, no values change as specific requests because looking at the value, it takes a string parameter. The value of message is updated by concatenating the value of the parameter in the query string with a newline character.
+
+
+For the second screenshot: When `How are you` is passed to `handleRequest`*
+
+1. In the code block above, The `main` method and the `handleRequest` method are called.
+2. Since the parameter is a string, it can take any `int`, `String`, and `URI`. The main method is called with the first argument as the port number. The handleRequest method is called with a URI object that represents the URL of the request. The relevant fields of the class are the message field, which contains the concatenated string of the message received from each request.
+3. In this case, the values change because looking at the value, it takes a string parameter. The value of message is updated by concatenating the value of the parameter in the query string with a newline character. This new request is written beneath the previous one. 
+
+---
+**Part 2**
+
