@@ -178,15 +178,6 @@ Provide:
 1.  A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
 Here is a failure inducing input. 
-But first this is the code from the `ArrayExamples.java` file:
-```
-@Test
-  public void testReversed() {
-    int[] input2 = { 1, 2, 3, 4, 5 };
-    assertArrayEquals(new int[] { 5, 4, 3, 2, 1 }, ArrayExamples.reversed(input2));
-  }
-
-```
 
 ```
 @Test
@@ -199,21 +190,17 @@ But first this is the code from the `ArrayExamples.java` file:
 
 2. An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 ```
-@Test
-  public void testReversed2() {
-    int[] input2 = { 1, 2, 3, 4, 5 };
-    assertArrayEquals(new int[] { 5, 4, 3, 2, 1 }, ArrayExamples.reversed(input2));
-  }
+
 
 ```
 
-3.  The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+3.  The symptom, as the output of running the tests 
 
+![Image](failure.png)
 
-
+It has been noted that the actual output's first array element differs from what was anticipated. It should be 5, but it is only 0.
 
 4.  The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-Briefly describe why the fix addresses the issue.
 
 Before: 
 ```
@@ -240,6 +227,9 @@ static int[] reversed(int[] arr) {
 #Wrong array was being returned originally
 
 ```
+Briefly describe why the fix addresses the issue:
+
+Instead of saving the reversed elements in a new array called newArray, the original code inverted the elements in the same array arr. The corrected code successfully stores the elements in newArray in the reversed order before returning it. This resolves the issue of returning the original input array rather than one that has been reversed.
 
 ---
 **Part 3**
