@@ -196,6 +196,8 @@ Here is a failure inducing input.
   ```
 
 2. An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+
+
 ```
 @Test
 public void WorkReverseTester(){
@@ -216,7 +218,10 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
   
+
 ```
+
+
 
 3.  The symptom, as the output of running the tests 
 
