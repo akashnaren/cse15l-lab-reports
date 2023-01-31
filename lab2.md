@@ -221,6 +221,7 @@ static int[] reversed(int[] arr) {
 3.  The symptom, as the output of running the tests 
 
 ![Image](failure.png)
+![Image](failure2.png)
 
 It has been noted that the actual output's first array element differs from what was anticipated. It should be 5, but it is only 0.
 
