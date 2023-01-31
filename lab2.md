@@ -205,9 +205,7 @@ public void WorkReverseTester(){
     assertArrayEquals(new int[] {0, 0, 0, 0, 0}, ArrayExamples.reversed(input1));
    
 }
-
 ```
-
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -217,8 +215,6 @@ static int[] reversed(int[] arr) {
     }
     return newArray;
   }
-  
-
 ```
 
 
