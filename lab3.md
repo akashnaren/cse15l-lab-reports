@@ -103,6 +103,14 @@ non-fiction/OUP/Rybczynski/ch1.txt:
 non-fiction/OUP/Rybczynski/ch1.txt:Architecture is hard to define. Goethe called it music frozen in space, which, while it captures a sense of rhythm, is too one-dimensional. And it relegates the mother of the arts to an inferior position; just as well to describe music as melted architecture. Nietzsche believed that architecture reflected his pride, man’s triumph over gravity, and his will to power. This notion applies to many buildings, from Gothic cathedrals to skyscrapers, but it is too, well, Nietzschean. The British master Edwin Lutyens referred to architecture as a sort of play: “In architecture, Palladio is the game!” Le Corbusier described his art as “the masterly, correct and magnificent play of masses brought together in light,” which is a good description of one of his own buildings. I am partial to Sir Henry Wotton’s definition. Wotton, who lived a long time in Venice and was a lover of architecture though not an architect, published a treatise on the subject in 1642. “In Architecture, as in all other Operative Arts, the end must direct the Operation,” he wrote. “The end is to build well. Well-building hath three conditions: Commoditie, Firmeness, and Delight.”
 non-fiction/OUP/Rybczynski/ch1.txt:Sir Henry’s description, which was based on the writings of the Roman architect Vitruvius, appeals to me because it emphasizes the complexity of the building art. To begin with, architecture has not one but three distinct purposes: to shelter human activity (commodity), to durably challenge gravity and the elements (firmness), and to be an object of beauty (delight). Architecture is always a synthesis of the three. However, the fulfillment of one purpose does not guarantee the satisfaction of the others. There are homely sturdy buildings and beautiful flimsy ones. A well-planned building can be ugly just as a beautiful building can function poorly. Form does not, contrary to Louis Sullivan’s hoary maxim, follow function.
 ```
+
+What is `grep  -v` doing?: 
+Alright, I understand that this must be a lot to take in but I want to highlight the main functionality of `grep  -v` which is used to search for a specific pattern in a file or input and display the matching lines. The -v option is used to invert the match, meaning it will display lines that do NOT match the pattern.
+
+Why is `grep  -v` useful?: 
+You can eliminate lines from the output that match the given pattern by using the grep -v option. It's frequently used to filter away lines in which you're not interested and show only the pertinent data. Assume, for instance, that you have a file called fan.txt that contains a lot of log information. You only want to see the lines that don't have the term "error" in them. 
+
+
 ---
 
 SECOND: `grep  -o`
@@ -258,6 +266,14 @@ travel_guides/berlitz2/Bahamas-WhereToGo.txt:Bahamas
 travel_guides/berlitz2/Canada-WhereToGo.txt:Bahamas
 [cs15lwi23ahg@ieng6-203]:written_2:429$ 
 ```
+
+What is `grep  -o` doing?: 
+When looking for a pattern in a file, the grep -o option is used to display only the matching portion of each line rather than the complete line.
+
+Why is `grep  -o` useful?: 
+When you simply need to view the matched strings and not the complete line, this option is helpful. This can let you focus on one element of the data without getting distracted by the remainder of the line or extract specific information from a big amount of text data. When you wish to extract specific data from a file for use in additional processing, such as piping the output to another command, the grep -o option can be helpful.
+
+
 ---
 THIRD: `grep  -w`
 
@@ -313,6 +329,10 @@ Example 2:
 travel_guides/berlitz2/Bahamas-WhereToGo.txt:The Exumas are divided into three distinct sections: Great Exuma Island, Little Exuma Island, and the Exhuma Cays, which lie north of the main islands. The capital, George Town, on Great Exuma Island, is served by regular flights from Nassau and makes the most convenient base for non-sailors. It has a sleepy and laid-back atmosphere and offers a couple of hotels and restaurants. A compact straw and vegetable market sits at the main crossroads. The town lies on the coast at Elizabeth Harbour, a large, sheltered stretch of water that is a popular stopping off point for sailors. The quiet town comes to life every April when it hosts the Family Island Regatta. Thousands of Bahamian working boats fill Elizabeth Harbour, their crews vying for the right to call themselves champion of the regatta.
 travel_guides/berlitz2/Bahamas-WhereToGo.txt:Traveling north from George Town you’ll pass Three Sisters Rock, a formation that lies just offshore from a sandy beach; the three rocks are said to represent three sisters who drowned in the waters here. Gradually the island narrows, and past Rolleville, Great Exuma gives way to the Exuma Cays, a ribbon of small islands of which only four are inhabited. Stanial Cay offers accommodation as well as yachting supplies. It also has an airfield with regular service from Fort Lauderdale on the Florida coast. These cays are home to the endangered iguana along with numerous rare plant species. A 22-mile (35-km) stretch north of Conch Cut has been protected for future generations by the creation of the Exuma Cays Land and Sea Park, 175 sq miles (453 sq km) of land and sea that includes some of the best yet most remote beaches in the Bahamas. The park is only accessible by boat — except for the occasional powerboats bringing passengers over from Nassau for a day of snorkeling and picnics on the beach, the only sounds you’ll hear will be the wind whipping through the sails of yachts anchored offshore.
 ```
+
+
+
+
 ---
 
 FOURTH: `grep  -i`
