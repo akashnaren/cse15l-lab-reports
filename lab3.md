@@ -331,7 +331,11 @@ travel_guides/berlitz2/Bahamas-WhereToGo.txt:Traveling north from George Town yo
 ```
 
 
+What is `grep  -w` doing?: 
+When looking for a pattern in a file, the grep -w option is used to match only the entire word rather than any substrings. When you just want to match precise words rather than patterns that might be a part of longer words, this option is helpful. For instance, a conventional grep command would yield a match if the word "hanging" appeared in the file while you were looking for the word "hang," but it would not if the -w option was used.
 
+Why is `grep  -w` useful?: 
+When looking for specific information in a file, this can be helpful for minimizing false positive results and concentrating on exact matches. When you wish to extract specific data from a file for use in additional processing, such as pipelining the output to another operation, the grep -w option can be helpful.
 
 ---
 
@@ -395,19 +399,14 @@ travel_guides/berlitz2/Canada-History.txt:Trans-Canada Airlines, the forerunner 
 travel_guides/berlitz2/Canada-History.txt:Economically, the country was closer than ever to the United States. The consumer boom accentuated dependency on America’s Canada-based branch-plant manufacturers of cars, radios, TVs, and refrigerators. The United States was also Canada’s main customer for raw materials and energy in what was a veritable explosion of industrial achievement. North Manitoba nickel and Labrador iron were replacing depleted resources south of the border; huge oil strikes were made near Edmonton, Alberta, in 1947; a uranium reactor started up in Ontario in 1952; and hydro-electric plants mushroomed all across the country. The St. Lawrence Seaway was opened in 1959. Six years later, drivers could cross the entire continent on the Trans-Canada Highway.
 ```
 
+What is `grep  -i` doing?: 
+When looking for a pattern in a file, the grep -i option is used to ignore case. This means that whether the characters in the pattern are uppercase or lowercase, the search will still match patterns. When you wish to conduct a search that is not affected by the case of the characters in the file, this option can be helpful. A conventional grep command, for instance, would not yield a match if the word "test" appeared in the file while you were looking for it, but it would if you used the -i option.
+
+Why is `grep  -i` useful?: 
+When looking for specific information in a file, this can help to prevent false negative matches and to concentrate on all matches regardless of case. When you wish to extract specific data from a file and utilize it for additional processing, such piping the output to another command, the grep -i option can be helpful.
 ---
 
-
-
-
-
-
-
-
-
-
-
-
+This is the end of the lab. 
 
 **Sources**
 1. Link: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
