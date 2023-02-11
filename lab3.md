@@ -6,7 +6,7 @@
 ---
 Objective: Discuss about commands.
 ---
-In this lab, I have found that 
+In this lab, I have found that utilizing certain commands allows users to discover certain aspects of the command line and how it reacts to syntax/files. 
 
 **What command did I choose?**
 So for this assignment, the goal as stated above is quite simple which is to choose one of the commands and then go online and find 
