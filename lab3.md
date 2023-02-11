@@ -339,6 +339,7 @@ When looking for specific information in a file, this can be helpful for minimiz
 Also here is an image even though it is not needed for the lab to show color coding since Markdown does not support colors. 
 ![Image](lab31.png)
 ![Image](lab32.png)
+
 ---
 
 FOURTH: `grep  -i`
