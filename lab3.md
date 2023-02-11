@@ -330,13 +330,15 @@ travel_guides/berlitz2/Bahamas-WhereToGo.txt:The Exumas are divided into three d
 travel_guides/berlitz2/Bahamas-WhereToGo.txt:Traveling north from George Town you’ll pass Three Sisters Rock, a formation that lies just offshore from a sandy beach; the three rocks are said to represent three sisters who drowned in the waters here. Gradually the island narrows, and past Rolleville, Great Exuma gives way to the Exuma Cays, a ribbon of small islands of which only four are inhabited. Stanial Cay offers accommodation as well as yachting supplies. It also has an airfield with regular service from Fort Lauderdale on the Florida coast. These cays are home to the endangered iguana along with numerous rare plant species. A 22-mile (35-km) stretch north of Conch Cut has been protected for future generations by the creation of the Exuma Cays Land and Sea Park, 175 sq miles (453 sq km) of land and sea that includes some of the best yet most remote beaches in the Bahamas. The park is only accessible by boat — except for the occasional powerboats bringing passengers over from Nassau for a day of snorkeling and picnics on the beach, the only sounds you’ll hear will be the wind whipping through the sails of yachts anchored offshore.
 ```
 
-
 What is `grep  -w` doing?: 
 When looking for a pattern in a file, the grep -w option is used to match only the entire word rather than any substrings. When you just want to match precise words rather than patterns that might be a part of longer words, this option is helpful. For instance, a conventional grep command would yield a match if the word "hanging" appeared in the file while you were looking for the word "hang," but it would not if the -w option was used.
 
 Why is `grep  -w` useful?: 
 When looking for specific information in a file, this can be helpful for minimizing false positive results and concentrating on exact matches. When you wish to extract specific data from a file for use in additional processing, such as pipelining the output to another operation, the grep -w option can be helpful.
 
+Also here is an image even though it is not needed for the lab to show color coding since Markdown does not support colors. 
+![Image](lab31.png)
+![Image](lab32.png)
 ---
 
 FOURTH: `grep  -i`
@@ -404,6 +406,10 @@ When looking for a pattern in a file, the grep -i option is used to ignore case.
 
 Why is `grep  -i` useful?: 
 When looking for specific information in a file, this can help to prevent false negative matches and to concentrate on all matches regardless of case. When you wish to extract specific data from a file and utilize it for additional processing, such piping the output to another command, the grep -i option can be helpful.
+
+Also here is an image even though it is not needed for the lab to show color coding since Markdown does not support colors. 
+![Image](lab33.png)
+
 ---
 
 This is the end of the lab. 
