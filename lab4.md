@@ -49,4 +49,9 @@ Here is a screenshot:
 ---
 **Step 6: Run the tests, demonstrating that they fail**
 
+Now for this step, I had to first change my directory into lab 7. To do this I manually typed `cd l...` and then hit `tab` which autofilled it to ` cd lab7`. To do so I went ahead and copied the entire command via a double click and dragging across the content I wanted to select from the lab write-up which is `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` then using the command `Command-C`. Once I was within the terminal,  I used `Command-V`. After that I went ahead and hit `enter`. I repeated this process with `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore`. So I first would double click and then drag across the content that I would want and used `Command-C`. Once I was within the terminal,  I used `Command-V`. Then I hit `enter` where it then went to a new line. 
+
+Here is a screenshot of this step:
+![Image](http://url/a.png)
+ 
 
