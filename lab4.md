@@ -25,7 +25,10 @@ Steps 4-9 are important and of focus for the lab.
 Now I will list each steps as parts just for the sake of logical flow. 
 
 ---
-*Part 1* = Step 4
 
+**Part 1 = Step 4**
+
+For logging into ieng6, I had to manually type in `ssh cs15lwi23@ieng6.ucsd.edu` because even if I did the tab action the 
+computer will not autocomplete it because that is not how the tab function is intended to be used. 
 
 
