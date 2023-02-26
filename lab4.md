@@ -26,9 +26,27 @@ Now I will list each steps as parts just for the sake of logical flow.
 
 ---
 
-**Part 1 = Step 4**
+**Step 4: Log into ieng6**
 
-For logging into ieng6, I had to manually type in `ssh cs15lwi23@ieng6.ucsd.edu` because even if I did the tab action the 
-computer will not autocomplete it because that is not how the tab function is intended to be used. 
+For logging into ieng6, I had to manually type in `ssh cs15lwi23ahg@ieng6.ucsd.edu`. Now I want to disclose that I 
+generated a SSH Key for ieng6 which allowed me to bypass the password typing after I put the intial ssh command. 
+
+![Image](http://url/a.png)
+
+The provided output represents a successful SSH connection made by a user named cs15lwi23ahg to the remote server ieng6.ucsd.edu. This command had also auto `enter`. I also went ahead and made sure that I generated SSH Keys for Github. After doing all these prerequisite steps, I was able to ensure that I could finally clone using a SSH link alongside the standard url. I believe for this step since we are mainly recreating how it would be in the competition setting. 
+
+---
+**Step 5: Clone your fork of the repository from your Github account**
+
+Now, before this step I did have an existing repository of lab7 that I went ahead and deleted. I recommend that anyone who does this lab to make sure to go into Github and ensure that there is no existence before continuing on past Step 5.
+
+The command that we need for this step would be `Git clone <ssh link>`. In this case, the ssh link is `git@github.com:invisiblecuteman/lab7.git` so the overall command typed manually would be `Git clone git@github.com:invisiblecuteman/lab7.git`. I had to also type this in manually. The way I did it was type in `Git clone` and then at the end used `Command-C` and then `Command-V` to add `git@github.com:invisiblecuteman/lab7.git`. I then 
+`enter`.
+
+Here is a screenshot:
+![Image](http://url/a.png)
+
+---
+**Step 6: Run the tests, demonstrating that they fail**
 
 
