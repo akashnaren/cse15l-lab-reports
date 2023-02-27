@@ -53,6 +53,8 @@ Here is a screenshot:
 The keys I used are: `git<space>cl<enter>`
 
 Here is a screenshot of the process:
+
+
 ![Image](lab4(5).png)
 
 ---
