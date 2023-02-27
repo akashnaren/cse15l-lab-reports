@@ -4,10 +4,9 @@
 ---
 ## Lab Report 4: Utilizing Terminal Controls
 ---
-Objective: Discuss about github, speeding up work using keyboard with terminal, and ssh. Overall make command line operations efficient. 
+Objective: Discuss about Github, speeding up work using keyboard with terminal, and ssh. Overall make command line operations efficient. 
 ---
-Now before I get into the steps and the main components I need for this lab report, I would like to first display the steps that 
-were used and the ones of focus. 
+Now before I get into the steps and the main components I need for this lab report, I would like to first display the steps that were used.
 
 The Steps Are:
 1. Setup Delete any existing forks of the repository you have on your account
@@ -19,13 +18,10 @@ The Steps Are:
 7. Edit the code file to fix the failing test
 8. Run the tests, demonstrating that they now succeed
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
----
 
-Steps 4-9 are important and of focus for the lab. 
+**Steps 4-9 are important and of focus for the lab.** 
 
-Now I will list each steps as parts just for the sake of logical flow. 
-
-Before I get into the steps, I want to state that I deleted any existing forks of the repository I have on my account. Here are some images in order to display this process. The main gist is that once you enter a repository, you travel to the settings of the repository and stay on General and scroll down to see this delete option.:
+Before I get into the steps, I want to state that I deleted any existing forks of the repository I have on my account. Here are some images in order to display this process. The main gist is that once you enter a repository on Github Website, you travel to the settings of the repository and stay on General and scroll down to see this delete option.:
 
 ![Image](lab4(1).png)
 
@@ -40,29 +36,31 @@ For logging into ieng6, I pressed `Ctrl+R` to get the prompt to write the name o
 
 ![Image](lab4(3).png)
 
-The provided output represents a successful SSH connection made by a user named cs15lwi23ahg to the remote server ieng6.ucsd.edu. I also went ahead and made sure that I generated SSH Keys for Github. I was able to ensure that I could finally clone using a SSH link alongside the standard url.
+Keys Used: `ssh<enter>`
+
+The provided output represents a successful SSH connection made by a user named cs15lwi23ahg to the remote server ieng6.ucsd.edu. I also went ahead and made sure that I generated SSH Keys for Github which bypasses the password prompt. I was able to ensure that I could finally clone using a SSH link alongside the standard url.
 
 ---
 **Step 5: Clone your fork of the repository from your Github account**
 
 I used `Ctrl+R` to get the prompt line to write the name of the command. This all occured while on the remote computer. 
 
+The command that we need for this step would be `Git clone <ssh link>`. In this case, the ssh link is `git@github.com:invisiblecuteman/lab7.git` so the overall command would be `Git clone git@github.com:invisiblecuteman/lab7.git`.
+
 Here is a screenshot:
 ![Image](lab4(4).png)
 
-The command that we need for this step would be `Git clone <ssh link>`. In this case, the ssh link is `git@github.com:invisiblecuteman/lab7.git` so the overall command would be `Git clone git@github.com:invisiblecuteman/lab7.git`.
-
 The keys I used are: `git<space>cl<enter>`
 
-Here is a screenshot:
+Here is a screenshot of the process:
 ![Image](lab4(5).png)
 
 ---
 **Step 6: Run the tests, demonstrating that they fail**
 
-Now for this step, I had to first change my directory into lab 7. To do this I manually typed `cd l...` and then hit `tab` which autofilled it to ` cd lab7`. To do so I went ahead and copied the entire command via a double click and dragging across the content I wanted to select from the lab write-up which is `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` then using the command `Command-C`. Once I was within the terminal,  I used `Command-V`. After that I went ahead and hit `enter`. I repeated this process with `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore`. So I first would double click and then drag across the content that I would want and used `Command-C`. Once I was within the terminal,  I used `Command-V`. Then I hit `enter` where it then went to a new line. 
+Now for this step, I want to compile which is `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` then `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` to run the code. 
 
-To show this in a bulleted form, my steps were:
+To show this in a numbered form, my steps were:
 1. Pressed `Ctrl+R` again to get the prompt to write the name of the command on the remote computer
 2. Keys Used: `javac<enter>`
 3. Compiling of program
@@ -70,7 +68,7 @@ To show this in a bulleted form, my steps were:
 5. Keys Used: `java<space><enter>`
 6. Run tests
  
-Here is a screenshot of this step:
+Here is a screenshot of step(3),(6):
 ![Image](lab4(6).png)
 ![Image](lab4(7).png)
 ![Image](lab4(8).png)
@@ -79,14 +77,14 @@ Here is a screenshot of this step:
 
 Keys Used: `nan<tab>L<tab>.j<tab>`
 
-After entering the nano editor = 
+Within nano editor, the next step taken was utilized with = 
 Keys Used: `<Ctrlv><Ctrlw>return<enter><up><up><right><right><right><right><right><right>
 <right><delete>2<Ctrlo><enter>`
 
 Here is a screenshot of this step:
 ![Image](lab4(9).png)
 
-Once I was able to access the editor in nano, I then had to use `Ctrl+R` which allowed me to access the next screen then I used `Ctrl + W` then `return`. Now after all this so far, I went ahead up 2 arrowkeys up + 7 arrowkeys right. I then pressed `delete` and entered 2. Now to make sure that I save and exit the nano, I used `Ctrl+O` - `enter` - `Ctrl + x`. 
+Once I was able to access the editor in nano, I then had to use `Ctrl+V` which allowed me to access the next screen then I used `Ctrl + W` then `return`. Now after all this so far, I went ahead up 2 arrowkeys up + 7 arrowkeys right. I then pressed `delete` and inputted 2 as part of the code. Now to make sure that I save and exit the nano, I used `Ctrl+O` - `enter` - `Ctrl + x`. 
 
  ---
 **Step 8: Run the tests, demonstrating that they now succeed**
