@@ -25,16 +25,20 @@ Steps 4-9 are important and of focus for the lab.
 
 Now I will list each steps as parts just for the sake of logical flow. 
 
-Before I get into the steps, I want to state that I deleted any existing forks of the repository I have on my account.
+Before I get into the steps, I want to state that I deleted any existing forks of the repository I have on my account. Here are some images in order to display this process. The main gist is that once you enter a repository, you travel to the settings of the repository and stay on General and scroll down to see this delete option.:
+
+![Image](lab4(1).png)
 
 After this step I went ahead and deleted lab7 specifically on the repository. So then I went ahead and created a new fork for lab7 which will be discussed in later components of the lab. 
+
+![Image](lab4(2).png)
 
 ---
 **Step 4: Log into ieng6**
 
 For logging into ieng6, I pressed `Ctrl+R` to get the prompt to write the name of the command. Now I want to disclose that I generated a SSH Key for ieng6 which allowed me to bypass the password typing after I put the intial ssh command. 
 
-![Image](http://url/a.png)
+![Image](lab4(3).png)
 
 The provided output represents a successful SSH connection made by a user named cs15lwi23ahg to the remote server ieng6.ucsd.edu. I also went ahead and made sure that I generated SSH Keys for Github. I was able to ensure that I could finally clone using a SSH link alongside the standard url.
 
@@ -44,14 +48,14 @@ The provided output represents a successful SSH connection made by a user named 
 I used `Ctrl+R` to get the prompt line to write the name of the command. This all occured while on the remote computer. 
 
 Here is a screenshot:
-![Image](http://url/a.png)
+![Image](lab4(4).png)
 
 The command that we need for this step would be `Git clone <ssh link>`. In this case, the ssh link is `git@github.com:invisiblecuteman/lab7.git` so the overall command would be `Git clone git@github.com:invisiblecuteman/lab7.git`.
 
 The keys I used are: `git<space>cl<enter>`
 
 Here is a screenshot:
-![Image](http://url/a.png)
+![Image](lab4(5).png)
 
 ---
 **Step 6: Run the tests, demonstrating that they fail**
@@ -60,14 +64,16 @@ Now for this step, I had to first change my directory into lab 7. To do this I m
 
 To show this in a bulleted form, my steps were:
 1. Pressed `Ctrl+R` again to get the prompt to write the name of the command on the remote computer
-2. KeyPressed `javac<enter>`
+2. Keys Used: `javac<enter>`
 3. Compiling of program
 4. `Ctrl+R` again
 5. Keys Used: `java<space><enter>`
 6. Run tests
  
 Here is a screenshot of this step:
-![Image](http://url/a.png)
+![Image](lab4(6).png)
+![Image](lab4(7).png)
+![Image](lab4(8).png)
  ---
 **Step 7: Edit the code file to fix the failing test**
 
@@ -78,7 +84,7 @@ Keys Used: `<Ctrlv><Ctrlw>return<enter><up><up><right><right><right><right><righ
 <right><delete>2<Ctrlo><enter>`
 
 Here is a screenshot of this step:
-![Image](http://url/a.png)
+![Image](lab4(9).png)
 
 Once I was able to access the editor in nano, I then had to use `Ctrl+R` which allowed me to access the next screen then I used `Ctrl + W` then `return`. Now after all this so far, I went ahead up 2 arrowkeys up + 7 arrowkeys right. I then pressed `delete` and entered 2. Now to make sure that I save and exit the nano, I used `Ctrl+O` - `enter` - `Ctrl + x`. 
 
@@ -89,9 +95,7 @@ Now for this step, since we have been able to make sure that the code is fixed w
 Keys Used = `<up><up><enter>` for compiling and then `<up><up><up><enter>` to run the code. This meant that I had to go 2 Arrowkeys up and then 3 arrowkeys up to the run the code. 
 
 Here is a screenshot of this step:
-![Image](http://url/a.png)
-
-
+![Image](lab4(10).png)
 
  ---
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
@@ -103,21 +107,21 @@ To satisfy this step, the keys that I pressed are `git<space>add<space>L<tab>.j<
 To make sure, I used `git<space>status<enter>`
 
 Here is a screenshot of this step:
-![Image](http://url/a.png)
+![Image](lab4(11).png)
 
 Color is important and in this case green indicates that the file has been modified. In this case, `ListExample.java` has been successfully modified. 
 
 I lastly want to make sure that the changes have been commited and the keys I used are `<Ctrlr>git<space>co<enter>`
 
-![Image](http://url/a.png)
-![Image](http://url/a.png)
+![Image](lab4(12).png)
+![Image](lab4(13).png)
 
 I then also want to push my edits and in order to this, the keys that I used are `<Ctrlr>git<space>p<enter>`.
 
 All of the keys used have alowed git to push changes to the repository linked to my github account. 
 
-![Image](http://url/a.png)
-![Image](http://url/a.png)
+![Image](lab4(14).png)
+![Image](lab4(15).png)
 
 ---
 
