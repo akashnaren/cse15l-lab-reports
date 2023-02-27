@@ -115,21 +115,33 @@ To satisfy this step, the keys that I pressed are `git<space>add<space>L<tab>.j<
 To make sure, I used `git<space>status<enter>`
 
 Here is a screenshot of this step:
+
+
 ![Image](lab4(11).png)
+
+
 
 Color is important and in this case green indicates that the file has been modified. In this case, `ListExample.java` has been successfully modified. 
 
 I lastly want to make sure that the changes have been commited and the keys I used are `<Ctrlr>git<space>co<enter>`
 
 ![Image](lab4(12).png)
+
+
 ![Image](lab4(13).png)
+
+
 
 I then also want to push my edits and in order to this, the keys that I used are `<Ctrlr>git<space>p<enter>`.
 
 All of the keys used have alowed git to push changes to the repository linked to my github account. 
 
 ![Image](lab4(14).png)
+
+
 ![Image](lab4(15).png)
+
+
 
 ---
 
