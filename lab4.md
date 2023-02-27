@@ -71,9 +71,17 @@ To show this in a numbered form, my steps were:
 6. Run tests
  
 Here is a screenshot of step(3),(6):
+
+
 ![Image](lab4(6).png)
+
+
 ![Image](lab4(7).png)
+
+
 ![Image](lab4(8).png)
+
+
  ---
 **Step 7: Edit the code file to fix the failing test**
 
