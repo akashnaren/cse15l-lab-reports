@@ -88,8 +88,7 @@ Here is a screenshot of step(3),(6):
 Keys Used: `nan<tab>L<tab>.j<tab>`
 
 Within nano editor, the next step taken was utilized with = 
-Keys Used: `<Ctrlv><Ctrlw>return<enter><up><up><right><right><right><right><right><right>
-<right><delete>2<Ctrlo><enter>`
+Keys Used: `<Ctrlv><Ctrlw>return<enter><up><up><right><right><right><right><right><right><right><delete>2<Ctrlo><enter>`
 
 Here is a screenshot of this step:
 
