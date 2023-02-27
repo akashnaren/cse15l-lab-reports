@@ -19,22 +19,24 @@ The Steps Are:
 7. Edit the code file to fix the failing test
 8. Run the tests, demonstrating that they now succeed
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
+---
 
 Steps 4-9 are important and of focus for the lab. 
 
 Now I will list each steps as parts just for the sake of logical flow. 
 
----
 Before I get into the steps, I want to state that I deleted any existing forks of the repository I have on my account.
-After this step I went ahead and deleted lab7 specifically on the repository. So then I went ahead and created a new fork for lab7. 
 
+After this step I went ahead and deleted lab7 specifically on the repository. So then I went ahead and created a new fork for lab7 which will be discussed in later components of the lab. 
+
+---
 **Step 4: Log into ieng6**
 
 For logging into ieng6, I pressed `Ctrl+R` to get the prompt to write the name of the command. Now I want to disclose that I generated a SSH Key for ieng6 which allowed me to bypass the password typing after I put the intial ssh command. 
 
 ![Image](http://url/a.png)
 
-The provided output represents a successful SSH connection made by a user named cs15lwi23ahg to the remote server ieng6.ucsd.edu. This command had also auto `enter`. I also went ahead and made sure that I generated SSH Keys for Github. After doing all these prerequisite steps, I was able to ensure that I could finally clone using a SSH link alongside the standard url. I believe for this step since we are mainly recreating how it would be in the competition setting. 
+The provided output represents a successful SSH connection made by a user named cs15lwi23ahg to the remote server ieng6.ucsd.edu. I also went ahead and made sure that I generated SSH Keys for Github. I was able to ensure that I could finally clone using a SSH link alongside the standard url.
 
 ---
 **Step 5: Clone your fork of the repository from your Github account**
@@ -44,9 +46,9 @@ I used `Ctrl+R` to get the prompt line to write the name of the command. This al
 Here is a screenshot:
 ![Image](http://url/a.png)
 
-The keys I used are: `git<space>cl<enter>`
-
 The command that we need for this step would be `Git clone <ssh link>`. In this case, the ssh link is `git@github.com:invisiblecuteman/lab7.git` so the overall command would be `Git clone git@github.com:invisiblecuteman/lab7.git`.
+
+The keys I used are: `git<space>cl<enter>`
 
 Here is a screenshot:
 ![Image](http://url/a.png)
@@ -61,8 +63,8 @@ To show this in a bulleted form, my steps were:
 2. KeyPressed `javac<enter>`
 3. Compiling of program
 4. `Ctrl+R` again
-5. KeyPressed `java<space><enter>`
-6. Running tests
+5. Keys Used: `java<space><enter>`
+6. Run tests
  
 Here is a screenshot of this step:
 ![Image](http://url/a.png)
@@ -70,8 +72,9 @@ Here is a screenshot of this step:
 **Step 7: Edit the code file to fix the failing test**
 
 Keys Used: `nan<tab>L<tab>.j<tab>`
-After entering the nano editor
-KeyPressed: `<Ctrlv><Ctrlw>return<enter><up><up><right><right><right><right><right><right>
+
+After entering the nano editor = 
+Keys Used: `<Ctrlv><Ctrlw>return<enter><up><up><right><right><right><right><right><right>
 <right><delete>2<Ctrlo><enter>`
 
 Here is a screenshot of this step:
@@ -120,4 +123,4 @@ All of the keys used have alowed git to push changes to the repository linked to
 
 This is the end of the lab. 
 
-I hope this was a infiormative labv report that discusses why it is important that command line operations improve the efficiency and speed at which tasks can be completed in relation to github and within the terminal. 
+I hope this was a infiormative lab report that discusses why it is important that command line operations improve the efficiency and speed at which tasks can be completed in relation to github and within the terminal. 
