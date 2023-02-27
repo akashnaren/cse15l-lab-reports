@@ -92,7 +92,11 @@ Keys Used: `<Ctrlv><Ctrlw>return<enter><up><up><right><right><right><right><righ
 <right><delete>2<Ctrlo><enter>`
 
 Here is a screenshot of this step:
+
+
 ![Image](lab4(9).png)
+
+
 
 Once I was able to access the editor in nano, I then had to use `Ctrl+V` which allowed me to access the next screen then I used `Ctrl + W` then `return`. Now after all this so far, I went ahead up 2 arrowkeys up + 7 arrowkeys right. I then pressed `delete` and inputted 2 as part of the code. Now to make sure that I save and exit the nano, I used `Ctrl+O` - `enter` - `Ctrl + x`. 
 
@@ -103,7 +107,11 @@ Now for this step, since we have been able to make sure that the code is fixed w
 Keys Used = `<up><up><enter>` for compiling and then `<up><up><up><enter>` to run the code. This meant that I had to go 2 Arrowkeys up and then 3 arrowkeys up to the run the code. 
 
 Here is a screenshot of this step:
+
+
 ![Image](lab4(10).png)
+
+
 
  ---
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
@@ -125,6 +133,8 @@ Color is important and in this case green indicates that the file has been modif
 
 I lastly want to make sure that the changes have been commited and the keys I used are `<Ctrlr>git<space>co<enter>`
 
+
+
 ![Image](lab4(12).png)
 
 
@@ -135,6 +145,8 @@ I lastly want to make sure that the changes have been commited and the keys I us
 I then also want to push my edits and in order to this, the keys that I used are `<Ctrlr>git<space>p<enter>`.
 
 All of the keys used have alowed git to push changes to the repository linked to my github account. 
+
+
 
 ![Image](lab4(14).png)
 
