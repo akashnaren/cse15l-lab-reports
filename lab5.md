@@ -128,8 +128,6 @@ Here is a screenshot of this step:
 
 ![Image](lab4(11).png)
 
-
-
 Color is important and in this case green indicates that the file has been modified. In this case, `ListExample.java` has been successfully modified. 
 
 I lastly want to make sure that the changes have been commited and the keys I used are `<Ctrlr>git<space>co<enter>`
