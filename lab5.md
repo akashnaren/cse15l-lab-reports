@@ -25,27 +25,34 @@ The Steps Are:
 
 Before I get into the steps, I want to state that I deleted any existing forks of the repository I have on my account. Here are some images in order to display this process. The main gist is that once you enter a repository on Github Website, you travel to the settings of the repository and stay on General and scroll down to see this delete option.:
 
+
 ![Image](lab4(1).png)
 
-After this step I went ahead and deleted lab7 specifically on the repository. So then I went ahead and created a new fork for lab7 which will be discussed in later components of the lab. 
+
+
+Following this action, I went ahead and removed lab7 from the repository. So I went ahead and started working on lab7's new fork, which will be covered in following lab components.
+
 
 ![Image](lab4(2).png)
+
 
 ---
 **Step 4: Log into ieng6**
 
-For logging into ieng6, I pressed `Ctrl+R` to get the prompt to write the name of the command. Now I want to disclose that I generated a SSH Key for ieng6 which allowed me to bypass the password typing after I put the intial ssh command. 
+I used the keyboard shortcut "Ctrl+R" to open the command prompt when logging into ieng6. Now I want to be clear that after entering the initial ssh command, I created an SSH Key for ieng6 that allowed me to skip typing the password.
+
 
 ![Image](lab4(3).png)
 
+
 Keys Used: `ssh<enter>`
 
-The provided output represents a successful SSH connection made by a user named cs15lwi23ahg to the remote server ieng6.ucsd.edu. I also went ahead and made sure that I generated SSH Keys for Github which bypasses the password prompt. I was able to ensure that I could finally clone using a SSH link alongside the standard url.
+The displayed output shows that a user going by the name of cs15lwi23ahg successfully established an SSH connection to the remote server ieng6.ucsd.edu. In order to avoid the password prompt, I made sure to produce SSH Keys for Github as well. With the use of an SSH link in addition to the regular url, I was able to make sure that I could eventually clone.
 
 ---
 **Step 5: Clone your fork of the repository from your Github account**
 
-I used `Ctrl+R` to get the prompt line to write the name of the command. This all occured while on the remote computer. 
+To open the prompt line and type the command name, I used the keyboard shortcut "Ctrl+R". All of this took place on the remote computer.
 
 The command that we need for this step would be `Git clone <ssh link>`. In this case, the ssh link is `git@github.com:invisiblecuteman/lab7.git` so the overall command would be `Git clone git@github.com:invisiblecuteman/lab7.git`.
 
@@ -99,7 +106,7 @@ Here is a screenshot of this step:
 
 
 
-Once I was able to access the editor in nano, I then had to use `Ctrl+V` which allowed me to access the next screen then I used `Ctrl + W` then `return`. Now after all this so far, I went ahead up 2 arrowkeys up + 7 arrowkeys right. I then pressed `delete` and inputted 2 as part of the code. Now to make sure that I save and exit the nano, I used `Ctrl+O` - `enter` - `Ctrl + x`. 
+Once I was able to enter the nano editor, I had to press "Ctrl+V" to move to the next screen, then "Ctrl + W" and "return" to exit. After having read all of this up to this point, I moved up 2 arrowkeys up and 7 arrowkeys right. I then selected "delete" and entered the number 2 into the code. I used "Ctrl+O" - "enter" - "Ctrl + x" to ensure that I saved and closed the nano.
 
  ---
 **Step 8: Run the tests, demonstrating that they now succeed**
@@ -117,9 +124,10 @@ Here is a screenshot of this step:
  ---
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
 
-Now has the come the final step where we will want to commit the changes we have to our github account. This ensures that our code is fully updated and there is no loss of information when saving the code on the file. 
+This is the last step, and we should now update our github account with the changes we've made. This ensures that when the code is saved to the file, it is fully updated and that no data is lost.
 
-To satisfy this step, the keys that I pressed are `git<space>add<space>L<tab>.j<tab><enter>` which allowed me to have changes to the local repository. I also wanted to make sure as I mentioned before that there was no loss of failure of saving information. 
+To accomplish this action, I pressed the keys "git" and "space" and "add" and "space" and "L". Thanks to tab>enter>', I was able to modify the local repository. In addition, as I've already mentioned, I wanted to be sure that no data was lost or saved improperly.
+
 
 To make sure, I used `git<space>status<enter>`
 
@@ -128,9 +136,9 @@ Here is a screenshot of this step:
 
 ![Image](lab4(11).png)
 
-Color is important and in this case green indicates that the file has been modified. In this case, `ListExample.java` has been successfully modified. 
+Because color matters, green in this example denotes that the file has been updated. In this instance, the modification to "ListExample.java" was successful.`<Ctrlr>git<space>co<enter>`
 
-I lastly want to make sure that the changes have been commited and the keys I used are `<Ctrlr>git<space>co<enter>`
+Last but not least, I want to confirm that the changes have been saved. The keys I used are `<Ctrlr>git<space>co<enter>`
 
 
 
@@ -141,9 +149,9 @@ I lastly want to make sure that the changes have been commited and the keys I us
 
 
 
-I then also want to push my edits and in order to this, the keys that I used are `<Ctrlr>git<space>p<enter>`.
+I then wish to push my edits, and to do this, I pressed the keys `<Ctrlr>git<space>p<enter>`.
 
-All of the keys used have alowed git to push changes to the repository linked to my github account. 
+With each key used, git was able to publish updates to the repository connected to my github account.
 
 
 
@@ -156,6 +164,5 @@ All of the keys used have alowed git to push changes to the repository linked to
 
 ---
 
-This is the end of the lab. 
 
 I hope this was a interesting report that discusses the aspect of using bash to speed up the process of all the lab tasks while also increasing the use of keyboard commands to speed up processes. 
