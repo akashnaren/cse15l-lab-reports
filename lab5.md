@@ -6,6 +6,8 @@
 ---
 Objective: how could you have done the task very quickly by writing a bash script (even if that was against the rules)
 ---
+
+
 During lab week 7, this was one of my favorite lab weeks. I found it to be very fun when it came to the competition aspect of the lab. When I tried to complete the task of demonstrating that the tests failed - Run the tests, demonstrating that they fail - and other steps, it took me a while to just complete the baseline tasks. I then had come to the portion where we had to compete within our group to see who the fastest person was at completing the tasks. I didn't do well at all but I was happy for Ruben to compete for the team. The compeition aspect came next where Ruben was competing against others. One person was able to finish within 25 seconds or something and we realized it was the bash script process that allowed them to win. 
 
 In this lab report, I will be discussing the process that I took differently in re-doing this aspect of the lab via the bash script. When I didn't use a bash script during the lab hours, the exact same task took longer in the 5-10min range. 
