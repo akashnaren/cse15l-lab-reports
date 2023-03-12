@@ -52,6 +52,8 @@ Once I was able to enter the nano editor, I had to press "Ctrl+V" to move to the
 
  ---
 **Step 4: Run the tests, demonstrating that they now succeed via bash script**
+
+
 Now for this step, since we have been able to make sure that the code is fixed we have to re run the tests on the fixed code. The result that we should hopefully see is `OK (2 tests)`
 
 The goal here is to make sure that another bash script is created. 
