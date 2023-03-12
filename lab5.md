@@ -83,4 +83,4 @@ Here is a screenshot of this step:
 ---
 
 
-I hope this was a interesting report that discusses the aspect of using bash to speed up the process of all the lab tasks while also increasing the use of keyboard commands to speed up processes. 
+I hope this was a interesting report that discusses the aspect of using bash to speed up the process of all the lab tasks.
